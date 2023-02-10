@@ -1,0 +1,10 @@
+server:
+  port: 8000
+  servlet:
+    context-path: /kafka
+spring:
+  kafka:
+    consumer:
+      group-id: 223
+    bootstrap-servers: 172.16.1.200:9092
+
